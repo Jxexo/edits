@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Jexo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Me on Discord</h1>
+
+        <div class="discord-info">
+            <p>Discord Username: <strong>j8xo</strong></p>
+            <button onclick="copyDiscord()">Copy Username</button>
+        </div>
+
+        <p class="description">
+            Hello, I'm Jexo, and I edit montages for free! Just hit me up on Discord, and I'll hook you up at no cost!
+        </p>
+
+        <div class="games-section">
+            <h2>Games I Edit</h2>
+            <div class="games">
+                <img src="overwatch.png" alt="Overwatch">
+                <img src="paladins.png" alt="Paladins">
+                <img src="fortnite.png" alt="Fortnite">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function copyDiscord() {
+            navigator.clipboard.writeText('j8xo').then(() => {
+                alert('Discord username copied!');
+            });
+        }
+    </script>
+</body>
+</html>
